@@ -1,4 +1,4 @@
-package com.gustavo;
+package com.gustavo.application.exercicio1;
 
 import com.gustavo.models.Eleitor;
 import com.gustavo.models.Votos;
@@ -25,10 +25,6 @@ public class Main {
 
         Double contagemDevotosNulos = contagemDeVotos.contarVotosNulos(listaDeEleitores);
         System.out.println("Votos nulos = "+contagemDevotosNulos);
-
-
-
-	// write your code here
     }
 
     private static List<Eleitor> pegarListaDeEleitores(){
