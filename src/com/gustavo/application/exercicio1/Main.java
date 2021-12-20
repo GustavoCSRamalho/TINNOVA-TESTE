@@ -2,8 +2,8 @@ package com.gustavo.application.exercicio1;
 
 import com.gustavo.models.Eleitor;
 import com.gustavo.models.Votos;
-import com.gustavo.service.ContagemVotosImpl;
-import com.gustavo.service.ContagemVotosInter;
+import com.gustavo.service.contagemdosvotos.ContagemVotosImpl;
+import com.gustavo.service.contagemdosvotos.ContagemVotosInter;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.gustavo.service;
+package com.gustavo.service.contagemdosvotos;
 
 import com.gustavo.models.Eleitor;
 import com.gustavo.models.Votos;

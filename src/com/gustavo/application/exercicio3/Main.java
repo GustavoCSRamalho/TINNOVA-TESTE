@@ -1,7 +1,7 @@
 package com.gustavo.application.exercicio3;
 
-import com.gustavo.service.RefatoracaoImpl;
-import com.gustavo.service.RefatoracaoInterf;
+import com.gustavo.service.refatoracao.RefatoracaoImpl;
+import com.gustavo.service.refatoracao.RefatoracaoInterf;
 
 public class Main {
 
