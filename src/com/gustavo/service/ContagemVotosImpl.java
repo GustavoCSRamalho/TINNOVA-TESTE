@@ -9,18 +9,21 @@ public class ContagemVotosImpl implements  ContagemVotosInter{
     @Override
     public Double contarVotosValidos(List<Eleitor> listaDeVotos) {
         double votosValidos = listaDeVotos.stream().filter( eleitor -> eleitor.getVotoFeito() == Votos.VALIDO).count();
-        return votosValidos;
+        double totalDeVotos = listaDeVotos.size();
+        return votosValidos/totalDeVotos;
     }
 
     @Override
     public Double contarVotosNulos(List<Eleitor> listaDeVotos) {
         double votosNulos = listaDeVotos.stream().filter( eleitor -> eleitor.getVotoFeito() == Votos.NULO).count();
-        return votosNulos;
+        double totalDeVotos = listaDeVotos.size();
+        return votosNulos/totalDeVotos;
     }
 
     @Override
     public Double contarVotosBrancos(List<Eleitor> listaDeVotos) {
         double votosBrancos = listaDeVotos.stream().filter( eleitor -> eleitor.getVotoFeito() == Votos.BRANCO).count();
-        return votosBrancos;
+        double totalDeVotos = listaDeVotos.size();
+        return votosBrancos/totalDeVotos;
     }
 }
