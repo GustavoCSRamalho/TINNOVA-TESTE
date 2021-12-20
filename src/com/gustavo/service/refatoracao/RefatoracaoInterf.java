@@ -1,4 +1,4 @@
-package com.gustavo.service;
+package com.gustavo.service.refatoracao;
 
 public interface RefatoracaoInterf {
 

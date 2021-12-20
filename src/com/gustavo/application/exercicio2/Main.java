@@ -1,13 +1,8 @@
 package com.gustavo.application.exercicio2;
 
-import com.gustavo.models.Eleitor;
-import com.gustavo.models.Votos;
-import com.gustavo.service.AlgoritmoBubbleImpl;
-import com.gustavo.service.AlgoritmoBubbleInter;
-import com.gustavo.service.ContagemVotosImpl;
-import com.gustavo.service.ContagemVotosInter;
+import com.gustavo.service.algoritmo.AlgoritmoBubbleImpl;
+import com.gustavo.service.algoritmo.AlgoritmoBubbleInter;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
