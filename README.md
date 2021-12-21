@@ -21,7 +21,7 @@ poder abrir o projeto.</p>
 $ git clone https://github.com/GustavoCSRamalho/TINNOVA-TESTE.git
 
 # Acesse a pasta do projeto no Intellij
-$ cd tinnova
+$ cd TinnovaTeste
 
 
 # AUTOR
